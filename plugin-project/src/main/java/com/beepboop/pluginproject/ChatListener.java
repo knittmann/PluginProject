@@ -14,12 +14,8 @@ public class ChatListener implements Listener{
         Player player = event.getPlayer();
         String playerMessage = event.getMessage().toLowerCase();
 
-        Bukkit.broadcastMessage(player + " sent the message " + playerMessage);
-
-
-
-        // if(playerMessage == "jun") {
-        //     Bukkit.broadcastMessage("This bruh");
-        // }
+        if(playerMessage.equals("jun")) {
+            Bukkit.broadcastMessage("This bruh");
+        }
     }
 }

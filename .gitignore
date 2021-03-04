@@ -1,0 +1,14 @@
+# spigot
+BuildData
+BuildTools.jar
+BuildTools.log.txt
+Bukkit
+CraftBukkit
+Spigot
+apache-maven-3.6.0
+spigot-1.16.5.jar
+
+# vscode
+work
+workspace.code-workspace
+
